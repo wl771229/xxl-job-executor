@@ -37,6 +37,14 @@
   ],
   "license": "MIT",
   "author": "xxl-job-executor contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wl771229/xxl-job-executor.git"
+  },
+  "homepage": "https://github.com/wl771229/xxl-job-executor#readme",
+  "bugs": {
+    "url": "https://github.com/wl771229/xxl-job-executor/issues"
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
     "eslint": "^9.39.4",
