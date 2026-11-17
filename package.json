@@ -1,0 +1,45 @@
+{
+  "name": "xxl-job-executor",
+  "version": "0.1.0",
+  "description": "零依赖的 XXL-JOB 2.4.x Node.js 执行器",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node --test \"test/*.test.js\"",
+    "pack:check": "npm pack --dry-run",
+    "check": "npm run lint && npm test && npm run pack:check"
+  },
+  "keywords": [
+    "xxl-job",
+    "xxl-job-executor",
+    "scheduler",
+    "job-scheduler",
+    "executor",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "author": "xxl-job-executor contributors",
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.4",
+    "globals": "^17.14.0"
+  }
+}
