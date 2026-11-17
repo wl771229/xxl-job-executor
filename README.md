@@ -11,16 +11,6 @@
 ## 安装
 
 ```bash
-# 尚未发布到 npm，请先用下面的方式之一
-npm install "git+ssh://git@github.com/<you>/xxl-job-executor.git#v0.1.0"
-
-# 或者从本地目录安装
-npm install ../xxl-job-executor
-```
-
-首次发布到 npm 后：
-
-```bash
 npm install xxl-job-executor
 ```
 
